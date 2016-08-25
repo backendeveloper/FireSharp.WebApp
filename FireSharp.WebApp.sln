@@ -12,6 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FireSharp.WebApp", "src\FireSharp.WebApp\FireSharp.WebApp.xproj", "{74AA3D23-7A74-4892-96DF-BCC43EF28D4D}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FireSharp", "src\FireSharp\FireSharp.xproj", "{0BB61AA0-5416-4A24-B0A9-363DFD58D16B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FireSharp.Serialization.JsonNet", "src\FireSharp.Serialization.JsonNet\FireSharp.Serialization.JsonNet.xproj", "{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FireSharp.Serialization.ServiceStack", "src\FireSharp.Serialization.ServiceStack\FireSharp.Serialization.ServiceStack.xproj", "{F83F9F11-9523-406E-9E5E-C191B4491B9C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FireSharp.Test.Console", "src\FireSharp.Test.Console\FireSharp.Test.Console.xproj", "{43A6AF69-8E1E-4AA4-A182-43C6934429E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +30,31 @@ Global
 		{74AA3D23-7A74-4892-96DF-BCC43EF28D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74AA3D23-7A74-4892-96DF-BCC43EF28D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74AA3D23-7A74-4892-96DF-BCC43EF28D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB61AA0-5416-4A24-B0A9-363DFD58D16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB61AA0-5416-4A24-B0A9-363DFD58D16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB61AA0-5416-4A24-B0A9-363DFD58D16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB61AA0-5416-4A24-B0A9-363DFD58D16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83F9F11-9523-406E-9E5E-C191B4491B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83F9F11-9523-406E-9E5E-C191B4491B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83F9F11-9523-406E-9E5E-C191B4491B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83F9F11-9523-406E-9E5E-C191B4491B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A6AF69-8E1E-4AA4-A182-43C6934429E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A6AF69-8E1E-4AA4-A182-43C6934429E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A6AF69-8E1E-4AA4-A182-43C6934429E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A6AF69-8E1E-4AA4-A182-43C6934429E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74AA3D23-7A74-4892-96DF-BCC43EF28D4D} = {6FB0642D-2F5B-441F-8D3D-57B5357775DE}
+		{0BB61AA0-5416-4A24-B0A9-363DFD58D16B} = {6FB0642D-2F5B-441F-8D3D-57B5357775DE}
+		{529CBDDD-BFD9-4EF3-8C81-576D4B3C6833} = {6FB0642D-2F5B-441F-8D3D-57B5357775DE}
+		{F83F9F11-9523-406E-9E5E-C191B4491B9C} = {6FB0642D-2F5B-441F-8D3D-57B5357775DE}
+		{43A6AF69-8E1E-4AA4-A182-43C6934429E4} = {6FB0642D-2F5B-441F-8D3D-57B5357775DE}
 	EndGlobalSection
 EndGlobal
